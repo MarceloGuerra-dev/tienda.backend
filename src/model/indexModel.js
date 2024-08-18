@@ -4,7 +4,7 @@
 const data = require("../../data.json");
 
 class ProductosModel {
-  static getAll() {
+  static async getAll() {
     if (!data)
       return {
         data: null,
